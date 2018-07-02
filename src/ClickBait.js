@@ -1,7 +1,7 @@
 import React from 'react'
 const ClickBait = ()=> {
     return(
-        <div className="small-12 columns other-articles">
+      <div className="small-12 columns other-articles">
         <h2>From around the Realm</h2>
         <div className="small-6 medium-3 columns other-article">
           <a href="#">

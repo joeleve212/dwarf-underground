@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
-import AuthorInfo from './AuthorInfo';
-import Paragraphs from './Paragraphs';
 import HammerAd from './HammerAd';
 import BottomBar from './BottomBar';
-import ArticleLinks from './ArticleLinks';
 import ClickBait from './ClickBait';
+import CompleteArticle from './CompleteArticle';
 
 class App extends Component {
   render() {
@@ -16,14 +14,9 @@ class App extends Component {
         <Header />
 
     <main className="expanded row">
-      <div className="large-8 medium-12 columns article">
-        <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
-        <AuthorInfo />
-        <Paragraphs />
-        <ArticleLinks />
-      </div>
+        <CompleteArticle />
         <HammerAd />
-      <ClickBait />
+        <ClickBait />
     </main>
     <BottomBar />
         </div>
