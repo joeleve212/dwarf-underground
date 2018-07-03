@@ -6,6 +6,7 @@ import HammerAd from './HammerAd';
 import BottomBar from './BottomBar';
 import ClickBait from './ClickBait';
 import CompleteArticle from './CompleteArticle';
+import ClickBaitBuilder from './ClickBaitBuilder';
 
 class App extends Component {
   render() {
