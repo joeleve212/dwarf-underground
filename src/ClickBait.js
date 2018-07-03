@@ -2,7 +2,6 @@ import React from 'react'
 //import ClickBaitBuilder from './ClickBaitBuilder'
 import ReactDOM from 'react-dom'
 
-
 const ClickBaitBuilder = (props) => {
     // constructor(props){
     //     super(props);
